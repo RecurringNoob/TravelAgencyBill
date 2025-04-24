@@ -78,7 +78,7 @@ public class BillGenerator extends JFrame {
      JPanel companyPanel = new JPanel(new BorderLayout());
      companyPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, 100));
      
-     JLabel companyName = new JLabel("Ridhi Sidhi Tours & Travels", JLabel.CENTER);
+     JLabel companyName = new JLabel("ABC Tours & Travels", JLabel.CENTER);
      companyName.setFont(new Font("Arial", Font.BOLD, 24));
      companyName.setForeground(primaryColor);
      
@@ -263,7 +263,7 @@ public class BillGenerator extends JFrame {
      footerPanel.setBorder(BorderFactory.createEmptyBorder(20, 0, 10, 0));
      footerPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
      
-     JLabel thanksLabel = new JLabel("Thank you for choosing Ridhi Sidhi Tours & Travels!");
+     JLabel thanksLabel = new JLabel("Thank you for choosing abc Tours & Travels!");
      thanksLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
      thanksLabel.setFont(new Font("Arial", Font.ITALIC, 14));
      
@@ -271,7 +271,7 @@ public class BillGenerator extends JFrame {
      addressLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
      addressLabel.setFont(new Font("Arial", Font.PLAIN, 12));
      
-     JLabel contactLabel = new JLabel("Contact: +91-1234567890 | Email: info@ridhisidhitours.com");
+     JLabel contactLabel = new JLabel("Contact: +91-1234567890 | Email:abc@gmail.com");
      contactLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
      contactLabel.setFont(new Font("Arial", Font.PLAIN, 12));
      
@@ -645,9 +645,9 @@ public class BillGenerator extends JFrame {
 	            contentStream.newLineAtOffset(150, paymentInfoY - 25);
 	            contentStream.showText(": " + booking.getInvoice());  // Using invoice as account
 	            contentStream.newLineAtOffset(0, -20);
-	            contentStream.showText(": Ridhi Sidhi Tours & Travels");
+	            contentStream.showText(": ABC Tours & Travels");
 	            contentStream.newLineAtOffset(0, -20);
-	            contentStream.showText(": SBI Bank");
+	            contentStream.showText(": XYZ Bank");
 	            contentStream.endText();
 	            
 	            // Add signature line
