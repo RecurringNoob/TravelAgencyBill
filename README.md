@@ -243,6 +243,4 @@ protected static final String CURRENCY = "Rs.";
 
 ---
 
-## License
 
-This project is proprietary software developed for internal use by Ridhi Sidhi Tours.
